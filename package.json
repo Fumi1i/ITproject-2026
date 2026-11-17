@@ -4,10 +4,10 @@
   "description": "��#\u0000 \u0000I\u0000T\u0000p\u0000r\u0000o\u0000j\u0000e\u0000c\u0000t\u0000-\u00002\u00000\u00002\u00006\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-  "dev": "tsx watch ./index.ts",
-  "build": "tsc",
-  "start": "node ./dist/index.js"
-},
+    "dev": "tsx watch ./index.ts",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Fumi1i/ITproject-2026.git"
@@ -21,12 +21,15 @@
   },
   "homepage": "https://github.com/Fumi1i/ITproject-2026#readme",
   "dependencies": {
+    "dotenv": "^18.0.10",
     "ejs": "^7.0.2",
-    "express": "^5.3.0"
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
     "@types/node": "^26.6.6",
+    "@types/pg": "^8.23.1",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   }
